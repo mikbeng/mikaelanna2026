@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Bröllopsfest - Mikael & Anna" />
+        <meta name="author" content="" />
+        <title>Bröllopsfest - Mikael & Anna</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+
+            .wedding-container {
+                display: flex;
+                height: 100vh;
+                width: 100%;
+            }
+
+            .left-column {
+                flex: 1;
+                background-image: url('assets/img/winter-sports.jpg');
+                background-size: cover;
+                background-position: center;
+                position: relative;
+            }
+
+            .left-column::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.1);
+            }
+
+            .right-column {
+                flex: 1;
+                background: linear-gradient(135deg, #4a6e7a 0%, #5a7e8a 100%);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 60px;
+                position: relative;
+                color: #fff;
+            }
+
+            .invitation-content {
+                max-width: 500px;
+                text-align: center;
+            }
+
+            .invitation-title {
+                font-family: 'Playfair Display', serif;
+                font-size: 3.5rem;
+                font-weight: 400;
+                line-height: 1.2;
+                margin-bottom: 40px;
+            }
+
+            .title-spacer {
+                display: block;
+                height: 60px;
+            }
+
+            .invitation-text {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1rem;
+                line-height: 1.8;
+                font-weight: 300;
+                margin-bottom: 60px;
+            }
+
+            .invitation-links {
+                border-top: 1px solid rgba(255, 255, 255, 0.3);
+                padding-top: 30px;
+                margin-bottom: 60px;
+                width: 100%;
+            }
+
+            .invitation-links a {
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 0.95rem;
+                padding: 12px 0;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+                transition: all 0.3s;
+            }
+
+            .invitation-links a:hover {
+                padding-left: 10px;
+                color: #d4e4e8;
+            }
+
+            .footer-credit {
+                position: absolute;
+                bottom: 20px;
+                right: 30px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 0.75rem;
+                opacity: 0.7;
+            }
+
+            /* Responsive Design */
+            @media (max-width: 992px) {
+                .wedding-container {
+                    flex-direction: column;
+                    overflow-y: auto;
+                    height: auto;
+                }
+
+                .left-column {
+                    min-height: 400px;
+                }
+
+                .right-column {
+                    padding: 40px 30px;
+                }
+
+                .invitation-title {
+                    font-size: 2.5rem;
+                }
+
+                .title-spacer {
+                    height: 40px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wedding-container">
+            <!-- Left Column with Background Image -->
+            <div class="left-column">
+            </div>
+
+            <!-- Right Column with Invitation Details -->
+            <div class="right-column">
+                <div class="invitation-content">
+                    <h1 class="invitation-title">
+                        Nu ska det firas!
+                        <span class="title-spacer"></span>
+                        Mikael & Annas bröllopsfest
+                    </h1>
+                    
+                    <p class="invitation-text">
+                        Du är inbjuden att i efterhand fira vår bröllopsfest i vårt älskade Jämtland. 
+                        Vi har hyrt hela Trillevallens Fjällgård från torsdag till söndag för en helg 
+                        fylld med glädje, god mat och minnen som varar för alltid.
+                    </p>
+
+                    <div class="invitation-links">
+                        <a href="#program">Program</a>
+                        <a href="#boende">Boende & Ankomst</a>
+                        <a href="#praktiskt">Praktisk Information</a>
+                        <a href="#osa">O.S.A.</a>
+                    </div>
+                </div>
+
+                <div class="footer-credit">Med kärlek från fjällen</div>
+            </div>
+        </div>
+
+        <!-- Content Sections -->
+        <section id="program" class="content-section">
+            <div class="content-wrapper">
+                <h2>Program</h2>
+                <div class="program-grid">
+                    <div class="day-schedule">
+                        <h3>Torsdag 9 april</h3>
+                    <p><strong>Välkomna!</strong></p>
+                        <p>Ankom när det passar er och installera er i era rum och njut av en dag på fjället.</p>
+                    </div>
+                    
+                    <div class="day-schedule">
+                        <h3>Fredag 10 april</h3>
+                        <p><strong>Fjällkollo hela dagen</strong></p>
+                        <p>Njut av trillevallen på skidor, i pulkabacken eller i en solstol.</p>
+                    </div>
+                    
+                    <div class="day-schedule highlight">
+                        <h3>Lördag 11 april</h3>
+                        <p><strong>Ceremoni och middag</strong></p>
+                        <p>Den försenade men efterlängtade festen! Vi samlas för en liten "ceremoni" följt av festmiddag.</p>
+                        <p>Klädkod: Något lite festligt.</p>
+                    </div>
+                    
+                    <div class="day-schedule">
+                        <h3>Söndag 12 april</h3>
+                        <p><strong>Sista dagen på fjällkollo</strong></p>
+                        <p>Vi kramar om varandra och kramar ut det sista fjällen har att erbjuda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="boende" class="content-section alt-bg">
+            <div class="content-wrapper">
+                <h2>Boende & Resa</h2>
+                <div class="info-content">
+                    <div class="info-block">
+                        <h3>Trillevallens Fjällgård</h3>
+                        <p>Vi har hyrt hela fjällgården torsdag till söndag, och alla får plats under samma tak! Det finns både dubbelrum och flerbäddsrum.</p>
+                        <p>Det finns möjlighet att låna sängkläder och handdukar mot en extra kostnad för er som inte vill släpa på det.</p>
+                        <p>Om du hellre vill bo lite mer avskilt finns det möjlighet att på egen hand boka in dig på <a href="https://trillevallen.se/utbud/hogfjallshotellet/" target="_blank" rel="noopener">Trillevallens Högfjällshotell</a>. Från hotellet till fjällgården är det ca 1km.</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Hitta hit</h3>
+                        <p><strong>Med bil:</strong> Från Östersund tar det ca 1h 15min. Parkering finns vid fjällgården.</p>
+                        
+                        <p><strong>Flyg:</strong> Närmaste flygplats är Åre Östersund Airport. SAS flyger direkt från Stockholm. Från Göteborg går det smidigt med ett kort byte i Stockholm. Transfer kan bokas från flygplatsen. Man kan även ta Norrtåg från Östersund till Undersåker station.</p>
+                        
+                        <p><strong>Tåg:</strong> Närmaste station är Undersåker. Vi rekommenderar natttågen via <a href="https://www.sj.se" target="_blank" rel="noopener">SJ</a> eller <a href="https://www.snalltaget.se" target="_blank" rel="noopener">Snälltåget</a>. Från Undersåker kan ni bli upphämtade. Det ska också gå att boka hela resan till Trillevallen om man bokar på Snälltåget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="praktiskt" class="content-section">
+            <div class="content-wrapper">
+                <h2>Praktisk Information</h2>
+                <div class="info-content">
+                    <div class="info-block">
+                        <h3>Mat & Dryck</h3>
+                        <p>Vi står för all mat och dryck under helgen - frukost, lunch, middag och festmåltiden på lördagen. Vi lagar maten, förutom festmåltiden, tillsammans så var beredd på att röra i en gryta eller diska en kastrull någon gång under helgen.<p>
+                        <p>Har du allergier eller matpreferenser? Glöm inte att meddela detta vid din O.S.A.</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Aktiviteter</h3>
+                        <p>I Trillevallen finns möjlighet att åka utförsskidor samt längdskidor i fina spår. På fjällgården finns också bastu, uppehållsrum med mysiga brasor och pingisbord.</p>
+                        <p>Läs mer om alla aktiviteter på <a href="https://trillevallen.se/aktiviteter/" target="_blank" rel="noopener">Trillevallens webbplats</a>.</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Present</h3>
+                        <p>Er närvaro är den finaste presenten!</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Barn</h3>
+                        <p>Barn är välkomna till vistelsen. Du får själv avgöra vad som passar just er familj.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="osa" class="content-section alt-bg">
+            <div class="content-wrapper">
+                <h2>O.S.A.</h2>
+                <div class="osa-content">
+                    <p class="osa-text">Vänligen meddela oss om du kan komma senast den <strong>31 december 2025</strong> via telefon eller sms. Meddela gärna tidigare om möjligt och meddela även om du inte kan komma. </p>
+                    <p class="osa-text">Glöm inte att berätta eventuella allergier, matpreferenser och vilka dagar du planerar att stanna med oss.</p>
+                    
+                    <div class="contact-info">
+                        <p><strong>Kontakta oss:</strong></p>
+                        <p>Mikael: <a href="tel:0735078198">0735-078198</a></p>
+                        <p>Anna: <a href="tel:0707958516">0707-958516</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            .content-section {
+                padding: 80px 20px;
+                scroll-margin-top: 20px;
+            }
+
+            .content-section.alt-bg {
+                background: #f8f9fa;
+            }
+
+            .content-wrapper {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+
+            .content-section h2 {
+                font-family: 'Playfair Display', serif;
+                font-size: 2.5rem;
+                text-align: center;
+                margin-bottom: 50px;
+                color: #4a6e7a;
+            }
+
+            .content-section h3 {
+                font-family: 'Playfair Display', serif;
+                font-size: 1.5rem;
+                margin-bottom: 15px;
+                color: #4a6e7a;
+            }
+
+            .program-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 30px;
+                margin-top: 40px;
+            }
+
+            .day-schedule {
+                background: white;
+                padding: 30px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+
+            .day-schedule.highlight {
+                background: linear-gradient(135deg, #4a6e7a 0%, #5a7e8a 100%);
+                color: white;
+            }
+
+            .day-schedule.highlight h3,
+            .day-schedule.highlight strong {
+                color: white;
+            }
+
+            .day-schedule p {
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.8;
+                margin-bottom: 10px;
+            }
+
+            .info-content {
+                display: grid;
+                gap: 40px;
+                margin-top: 30px;
+            }
+
+            .info-block {
+                font-family: 'Montserrat', sans-serif;
+                line-height: 1.8;
+            }
+
+            .info-block p {
+                margin-bottom: 15px;
+                color: #333;
+            }
+
+            .info-block a {
+                color: #4a6e7a;
+                text-decoration: underline;
+                font-weight: 600;
+            }
+
+            .info-block a:hover {
+                color: #5a7e8a;
+            }
+
+            .osa-content {
+                text-align: center;
+                max-width: 700px;
+                margin: 0 auto;
+            }
+
+            .osa-text {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 1.1rem;
+                line-height: 1.8;
+                margin-bottom: 20px;
+                color: #333;
+            }
+
+            .contact-info {
+                background: white;
+                padding: 30px;
+                border-radius: 8px;
+                margin: 40px 0;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+
+            .contact-info p {
+                font-family: 'Montserrat', sans-serif;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .contact-info a {
+                color: #4a6e7a;
+                text-decoration: none;
+            }
+
+            .contact-info a:hover {
+                text-decoration: underline;
+            }
+
+            .final-note {
+                font-family: 'Playfair Display', serif;
+                font-size: 1.3rem;
+                font-style: italic;
+                color: #4a6e7a;
+                margin-top: 30px;
+            }
+
+            /* Smooth scrolling */
+            html {
+                scroll-behavior: smooth;
+            }
+
+            @media (max-width: 768px) {
+                .content-section {
+                    padding: 50px 20px;
+                }
+
+                .content-section h2 {
+                    font-size: 2rem;
+                }
+
+                .program-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
